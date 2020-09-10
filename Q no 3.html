@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function Hello()
+		{
+			alert("Hello");
+		}
+		function over()
+		{
+			document.getElementById("p1").innerHTML = "Mouse over"
+		}
+		function out()
+		{
+			document.getElementById("p1").innerHTML = "Mouse out";
+		}
+		
+	</script>
+</head>
+<body onload="Hello()">
+	<h2 onmouseover="over()">Mouse over</h2>
+	<p id="p1"></p>
+
+	<h2 onmouseout="out()">Mouse out</h2>
+	<p id="p1"></p>
+
+</body>
+</html>
